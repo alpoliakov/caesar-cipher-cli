@@ -27,3 +27,5 @@ const cryptoAction = (text, shift, mode = ENCODE) => {
     }
   }).join('');
 }
+
+module.exports(cryptoAction);
