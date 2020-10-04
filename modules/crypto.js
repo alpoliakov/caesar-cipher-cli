@@ -12,7 +12,6 @@ const cryptoAction = (text, shift, mode = ENCODE) => {
 
     if(index !== -1) {
       const isLowerCase = symbol === lowerCaseSymbol;
-      console.log(isLowerCase);
       let shiftIndex = (index + shift) % alphabet.length;
       if(shiftIndex < 0) {
         shiftIndex += alphabet.length;
@@ -25,7 +24,7 @@ const cryptoAction = (text, shift, mode = ENCODE) => {
     }else {
       return symbol;
     }
-  }).join('');
+  }).join('') + `\n`;
 }
 
-module.exports(cryptoAction);
+module.exports = {cryptoAction};
