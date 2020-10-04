@@ -24,7 +24,7 @@ const cryptoAction = (text, shift, mode = ENCODE) => {
     }else {
       return symbol;
     }
-  }).join('') + `\n`;
+  }).join('');
 }
 
 module.exports = {cryptoAction};
