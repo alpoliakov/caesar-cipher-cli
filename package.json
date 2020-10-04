@@ -1,0 +1,12 @@
+{
+  "name": "caesar-cipher-cli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/alpoliakov/caesar-cipher-cli.git",
+  "author": "alpoliakov <alpoliakov73@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "minimist": "^1.2.5"
+  }
+}
